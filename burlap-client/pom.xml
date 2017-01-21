@@ -18,7 +18,7 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>spring-rmi-example</artifactId>
+        <artifactId>spring-remoting-examples</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

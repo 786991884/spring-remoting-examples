@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.example</groupId>
-        <artifactId>spring-rmi-example</artifactId>
+        <artifactId>spring-remoting-examples</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -17,6 +17,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--整合cxf测试-->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-frontend-jaxws</artifactId>
+            <version>2.7.18</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http</artifactId>
+            <version>2.7.18</version>
         </dependency>
     </dependencies>
     
